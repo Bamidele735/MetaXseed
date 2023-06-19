@@ -41,7 +41,7 @@ function MyApp({ Component, pageProps }) {
           property='twitter:image'
           content={process.env.NEXT_PUBLIC_MAIN_URL + 'logo.png'}
         />
-        <link rel='shortcut icon' href='/favicon.svg' type='image/x-icon' />
+        <link rel="icon" href="https://yellow-instant-gazelle-449.mypinata.cloud/ipfs/QmNx1jbSk46D99UcdFmoA91wt1tWFUWoRw37CGyuQozbg6?_gl=1*1uljnyl*rs_ga*ZmU5YTA5YjEtM2MwZC00MTgwLTk2MDMtY2U4ZTUwYjVjOThl*rs_ga_5RMPXG14TE*MTY4NzE4NTY1NC42Ni4wLjE2ODcxODU2NTQuNjAuMC4w" />
       </Head>
       <Component {...pageProps} />
       </ThirdwebProvider>
