@@ -147,12 +147,12 @@ export default function Collections() {
                 <div>
                 <div className="rrex">
               <h1 id="mint" className="color font-Righteous uppercase font-bold text-3xl md:text-4xl  bg-clip-text mt-3">
-              MetaXseed NFT <br />
+           
                 {paused
                   ? "Paused"
                   : isWlMint
                   ? "Whitelist Sale is Live"
-                  : "Public Mint is Live!"}{" "}
+                  : " Mint Live!"}{" "}
               </h1>
               <h3 className=" text-sm text-gray-100 tracking-widest">
                 {walletAddress
@@ -167,7 +167,7 @@ export default function Collections() {
                 </div>
               </div>
               <div className="heroin">
-              <video className="video" src="https://ipfs.io/ipfs/QmajmmoWKifcs5MocepWHrVe6E9VKNaFQxagG3vaSazan4/coin_bronze_480.m4v" alt="side" />
+              <img className="video" src="https://yellow-instant-gazelle-449.mypinata.cloud/ipfs/QmWFz7pPPVSWM8Q1asoB7rSFXjyicg1vkTvqB5YmfQY3Di?_gl=1*1pv8ngo*rs_ga*ZmU5YTA5YjEtM2MwZC00MTgwLTk2MDMtY2U4ZTUwYjVjOThl*rs_ga_5RMPXG14TE*MTY4NzIwNDMxNi42OC4xLjE2ODcyMDQzNDguMjguMC4w" alt="side" />
                 {" "}
                 {/* <div className="animated_image">
                 <img
