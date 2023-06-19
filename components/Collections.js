@@ -3,7 +3,7 @@ import { initOnboard } from "../ulits/onboard";
 import Image from "next/image";
 import { config } from "../dapp.config";
 import React from "react";
-import CoinBase from "../public/2.jpg";
+import Banner from "../public/QmYEud7JXUfuscJEvf9pK9k9VvhS6LVL11FAVP8jqFgBWA.png";
 import Thirdweb from "../public/3.jpg";
 import Marquee from "react-fast-marquee";
 import Metamask from "../public/4.jpg";
@@ -132,8 +132,9 @@ export default function Collections() {
 
   return (
     <div>
-      <div>
-        <img src="https://yellow-instant-gazelle-449.mypinata.cloud/ipfs/QmYEud7JXUfuscJEvf9pK9k9VvhS6LVL11FAVP8jqFgBWA?_gl=1*ul6vqm*rs_ga*ZmU5YTA5YjEtM2MwZC00MTgwLTk2MDMtY2U4ZTUwYjVjOThl*rs_ga_5RMPXG14TE*MTY4NzEyOTYzMC42Mi4xLjE2ODcxMjk4MTAuNjAuMC4w" alt="banner" />
+      <div className="width">
+      <Image src={Banner} alt=" image" className=""
+        />
       </div>
       <div>
         <div id="mintt" className="  heroinner">
