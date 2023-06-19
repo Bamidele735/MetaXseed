@@ -6,8 +6,8 @@ const config = {
   contractAddress: '0x2f6189a4a21805A4E5421447De156bF74c2dcD00',
   publicSalePrice:1,
   whitelistSalePrice:0.1,
-  maxMintAmount:10,
-  WlMaxMintAmount:10
+  maxMintAmount:3,
+  WlMaxMintAmount:3
 }
 
 const onboardOptions = {
