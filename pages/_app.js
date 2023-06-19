@@ -9,9 +9,9 @@ function MyApp({ Component, pageProps }) {
     <ThirdwebProvider activeChain={activeChain}>
        <ToastContainer />
       <Head>
-        <title>XSEED - NFT Minting Website</title>
-        <meta name='title' content='XSEED - NFT Minting Website' />
-        <meta name='description' content='Buy & sale nft online' />
+        <title>META OG - NFT Minting Website</title>
+        <meta name='title' content='META OG - NFT Minting Website' />
+        <meta name='description' content='Buy nft online' />
         <meta name='keywords' content='nft, Minting Website' />
         <meta name='robots' content='index, follow' />
         <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
