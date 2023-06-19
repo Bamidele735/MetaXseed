@@ -231,7 +231,7 @@ export default function Collections() {
                   />
                 </svg>
               </button>
-              <p className="seed"> 1 XSEED
+              <p className="seed"> {mintAmount} XSEED
                   </p>{" "}
             </div>
 
